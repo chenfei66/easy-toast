@@ -1,7 +1,7 @@
 {
   "name": "leiang-easy-toast",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "LoSt <zhengyuhang47@qq.com>",
   "main":"dist/easy-toast.js",
   "license": "MIT",
