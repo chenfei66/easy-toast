@@ -8,6 +8,6 @@ npm i leiang-easy-toast
 
 2.main.js入口文件内引用
 ```
-import easyToast from 'leiangEasyToast'
+import easyToast from 'leiang-easy-toast'
 Vue.use(easyToast)
 ```
