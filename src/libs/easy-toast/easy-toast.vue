@@ -19,7 +19,7 @@
       },
       message: {
         type: String,
-        default: '信息提醒'
+        default: ''
       },
       duration: {
         type: Number,

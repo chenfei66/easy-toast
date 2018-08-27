@@ -45,10 +45,5 @@ toast.install = (Vue, options) => {
   }
 }
 
-// global 情况下 自动安装
-// if (typeof window !== 'undefined' && window.Vue) {
-//   window.Vue.use(toast)
-// }
-
 // 模块导出
 export default toast

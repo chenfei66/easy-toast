@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <p @click="showMsg1">show message1</p>
-    <p @click="showMsg2">show message2</p>
+    <p @click="showMsg1">普通的消息文本，不显示遮罩层，2.5秒后关闭</p>
+    <p @click="showMsg2">普通的消息文本，显示遮罩层，2秒后关闭</p>
   </div>
 </template>
 
@@ -11,12 +11,14 @@ export default {
   methods: {
     showMsg1() {
       this.$easyToast.use({
-        message: '的撒里卡积分大联发科就打扫可辣无奈l.djklsajfoi ，假大空老师傅hi偶的加分解到拉萨卡 '
+        message: '普通的消息文本，不显示遮罩层，2.5秒后关闭'
       })
     },
     showMsg2() {
       this.$easyToast.use({
-        message: 'OK!'
+        message: '普通的消息文本，显示遮罩层，2秒后关闭',
+        maskShow: true,
+        duration: 2000
       })
     }
   }
